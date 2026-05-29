@@ -14,10 +14,10 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
 | User AI session hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI worker hours | 0.7h | 5.5h | 12.0h | 12.0h |
-| AI concurrency hours | 0.7h | 5.5h | 12.0h | 12.0h |
+| AI worker hours | 0.7h | 5.5h | 11.9h | 11.9h |
+| AI concurrency hours | 0.7h | 5.5h | 11.9h | 11.9h |
 | Interactive sessions | 0 | 0 | 0 | 0 |
-| Worker sessions | 21 | 128 | 275 | 275 |
+| Worker sessions | 21 | 128 | 274 | 274 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -27,12 +27,12 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-4-6 | 4,067 | 4K | 1.3M | 144.5M | $130.24 | $390.21 | $256.20 |
-| **Total** | **4,067** | **4K** | **1.3M** | **144.5M** | **$130.24** | **$390.21** | **$256.20** |
+| claude-sonnet-4-6 | 4,061 | 4K | 1.3M | 144.2M | $129.70 | $389.56 | $255.81 |
+| **Total** | **4,061** | **4K** | **1.3M** | **144.2M** | **$129.70** | **$389.56** | **$255.81** |
 
-_163.5M total tokens processed. 88.4% cache hit rate._
+_163.1M total tokens processed. 88.4% cache hit rate._
 
-_$646.41 total saved ($390.21 caching + $256.20 model routing vs all-Opus)._
+_$645.37 total saved ($389.56 caching + $255.81 model routing vs all-Opus)._
 
 _Model savings are modest because ~88.4% of tokens are cache reads, where price differences between models are small._
 
@@ -64,5 +64,5 @@ _Model savings are modest because ~87.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-29 19:08 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-29 20:08 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
