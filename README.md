@@ -10,51 +10,46 @@
 <!-- STATS-START -->
 ## Work with AI
 
-| Metric | 24h | 7 Days | 28 Days | 365 Days |
+| Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI worker hours | 0.0h | 1.4h | 8.4h | 8.4h |
-| AI concurrency hours | 0.0h | 1.4h | 8.4h | 8.4h |
-| Interactive sessions | 0 | 0 | 0 | 0 |
-| Worker sessions | 0 | 34 | 191 | 191 |
+| Screen time (Mac) | 6.5h | 35.1h | 35.1h | ~1686h* |
+| Input activity (Mac) | unavailable | unavailable | unavailable | unavailable |
+| Interactive human attention | 0.0h | 0.0h | 0.0h | 2.7h |
+| Interactive AI generation | 0.0h | 0.0h | 0.0h | 0.5h |
+| Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
+| Worker/headless AI generation | 0.0h | 0.0h | 0.0h | 29.8h |
+| Additive observed work | 0.0h | 0.0h | 0.0h | 33.0h |
+| Interactive sessions | 0 | 0 | 0 | 12 |
+| Worker sessions | 0 | 0 | 0 | 637 |
 
-_Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
+_Screen time from macos-pmset-display-assertions; collection status: ok. *365-day estimate uses observed calendar coverage._
 
-_User AI session hours measured from AI message timestamps (reading, thinking, typing between responses)._
+_Input activity from macos-input-activity (time from each keyboard, mouse or trackpad input until 5 idle minutes); collection status: unavailable (no-input-activity-samples)._
 
-## AI Model Usage (last 30 days)
+_Periods are completed local calendar days ending at midnight; today is excluded._
 
-| Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-4-6 | 5,017 | 5K | 1.6M | 168.3M | $144.94 | $454.58 | $300.11 |
-| **Total** | **5,017** | **5K** | **1.6M** | **168.3M** | **$144.94** | **$454.58** | **$300.11** |
+_Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_188.6M total tokens processed. 89.2% cache hit rate._
-
-_$754.70 total saved ($454.58 caching + $300.11 model routing vs all-Opus)._
-
-_Model savings are modest because ~89.2% of tokens are cache reads, where price differences between models are small._
+_AI session 365-day totals cover 119 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (all time)
 
-| Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-4-6 | 8,060 | 8K | 3.0M | 329.7M | $311.32 | $890.45 | $577.76 |
-| claude-opus-4-6 | 32 | 44 | 19K | 3.5M | $10.12 | $48.26 | $0.00 |
-| claude-opus-4-5 | 44 | 89 | 7K | 1.1M | $6.62 | $16.14 | $0.00 |
-| **Total** | **8,136** | **9K** | **3.0M** | **334.5M** | **$328.06** | **$954.85** | **$577.76** |
+| Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| claude-sonnet-4-6 | 7,652 | 8K | 2.9M | 319.4M | 31.4M | 91.0% | 643 | — |
+| claude-opus-4-5 | 68 | 115 | 11K | 1.8M | 348K | 84.1% | 5 | — |
+| claude-opus-4-6 | 32 | 44 | 19K | 3.5M | 173K | 95.4% | 1 | 0.1h |
+| **Total** | **7,752** | **8K** | **2.9M** | **324.8M** | **31.9M** | **91%** | **649** | **—** |
 
-_382.5M total tokens processed. 87.5% cache hit rate._
-
-_$1,532.61 total saved ($954.85 caching + $577.76 model routing vs all-Opus)._
-
-_Model savings are modest because ~87.5% of tokens are cache reads, where price differences between models are small._
+_359.8M total tokens processed. 91% cache hit rate._
 <!-- STATS-END -->
 
+<!-- PROJECTS-START -->
 ## Projects
 
 - **[local-seo-skills](https://github.com/chrishballard/local-seo-skills)** -- Local SEO skills for Claude Code — NAP checker and SEO audit
+<!-- PROJECTS-END -->
+
 <!-- CONTRIBUTIONS-START -->
 <!-- CONTRIBUTIONS-END -->
 
@@ -64,5 +59,20 @@ _Model savings are modest because ~87.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-09 13:30 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-17 16:32 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
+
+<!-- TOTAL-CONTRIBUTIONS-START -->
+<div align="center">
+  <a href="https://commit-history.com/chrishballard?metric=total" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/total-dark.svg" />
+      <img alt="chrishballard's cumulative total GitHub contributions" src="assets/contributions/total-light.svg" width="960" />
+    </picture>
+  </a>
+</div>
+
+[Verify on commit-history.com](https://commit-history.com/chrishballard?metric=total) · [Chart data](assets/contributions/total.json)
+
+Includes commits, issues, pull requests, reviews, repositories, and restricted contributions. Refreshed daily through the prior UTC day; commit-history.com may use a different refresh cutoff. GitHub controls link navigation—Ctrl/Cmd-click opens verification in a new tab.
+<!-- TOTAL-CONTRIBUTIONS-END -->
