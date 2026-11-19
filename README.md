@@ -12,7 +12,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 8.6h | 31.4h | 31.4h | ~1830h* |
+| Screen time (Mac) | 8.6h | 37.3h | 43.7h | ~1994h* |
 | Input activity (Mac) | unavailable | unavailable | unavailable | unavailable |
 | Interactive human attention | 0.0h | 0.0h | 0.0h | 2.7h |
 | Interactive AI generation | 0.0h | 0.0h | 0.0h | 0.5h |
@@ -20,9 +20,9 @@
 | Worker/headless AI generation | 3.4h | 3.4h | 3.4h | 33.2h |
 | Additive observed work | 3.4h | 3.4h | 3.4h | 36.4h |
 | Interactive sessions | 0 | 0 | 0 | 12 |
-| Worker sessions | 37 | 37 | 37 | 674 |
+| Worker sessions | 41 | 41 | 41 | 678 |
 
-_Screen time from macos-pmset-display-assertions; collection status: ok. *365-day estimate uses observed calendar coverage._
+_Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
 _Input activity from macos-input-activity (time from each keyboard, mouse or trackpad input until 5 idle minutes); collection status: unavailable (no-input-activity-samples)._
 
@@ -36,19 +36,19 @@ _AI session 365-day totals cover 279 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 18,235 | 78K | 11.1M | 4,658.1M | 135.4M | 97.2% | 37 | 74.2h |
-| **Total** | **18,235** | **78K** | **11.1M** | **4,658.1M** | **135.4M** | **97.2%** | **37** | **74.2h** |
+| claude-opus-5-5 | 20,259 | 82K | 12.3M | 4,932.6M | 139.8M | 97.2% | 41 | 79.1h |
+| **Total** | **20,259** | **82K** | **12.3M** | **4,932.6M** | **139.8M** | **97.2%** | **41** | **79.1h** |
 
-_4,804.8M total tokens processed. 97.2% cache hit rate._
+_5,084.9M total tokens processed. 97.2% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 18,235 | 78K | 11.1M | 4,658.1M | 135.4M | 97.2% | 37 | 74.2h |
-| **Total** | **18,235** | **78K** | **11.1M** | **4,658.1M** | **135.4M** | **97.2%** | **37** | **74.2h** |
+| claude-opus-5-5 | 20,259 | 82K | 12.3M | 4,932.6M | 139.8M | 97.2% | 41 | 79.1h |
+| **Total** | **20,259** | **82K** | **12.3M** | **4,932.6M** | **139.8M** | **97.2%** | **41** | **79.1h** |
 
-_4,804.8M total tokens processed. 97.2% cache hit rate._
+_5,084.9M total tokens processed. 97.2% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -63,7 +63,7 @@ _4,804.8M total tokens processed. 97.2% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-18 23:47 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-19 00:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
