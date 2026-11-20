@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 4.6h | 27.2h | 27.2h | 27.2h |
 | Additive observed work | 7.2h | 29.8h | 29.8h | 29.8h |
 | Interactive sessions | 3 | 3 | 3 | 3 |
-| Worker sessions | 131 | 204 | 204 | 204 |
+| Worker sessions | 139 | 212 | 212 | 212 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -36,25 +36,25 @@ _AI session 365-day totals cover 2 days of local assistant session history (not 
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 24,487 | 231K | 14.5M | 5,622.1M | 158.8M | 97.2% | 100 | 95.6h |
-| claude-sonnet-5-5 | 1,028 | 2K | 463K | 75.5M | 7.4M | 91.1% | 105 | 6.7h |
+| claude-opus-5-5 | 24,749 | 231K | 14.7M | 5,663.9M | 160.6M | 97.2% | 104 | 96.6h |
+| claude-sonnet-5-5 | 1,084 | 2K | 496K | 80.4M | 7.7M | 91.2% | 109 | 7.0h |
 | claude-haiku-5-5 | 4 | 16 | 23K | 0 | 343K | 0.0% | 2 | 0.1h |
 | claude-haiku-4-5 | 1 | 3 | 4 | 0 | 80K | 0.0% | 1 | 0.0h |
-| **Total** | **25,520** | **233K** | **15.0M** | **5,697.6M** | **166.7M** | **97.2%** | **207** | **102.4h** |
+| **Total** | **25,838** | **234K** | **15.2M** | **5,744.4M** | **168.8M** | **97.1%** | **215** | **103.6h** |
 
-_5,879.6M total tokens processed. 97.2% cache hit rate._
+_5,928.7M total tokens processed. 97.1% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 24,487 | 231K | 14.5M | 5,622.1M | 158.8M | 97.2% | 100 | 95.6h |
-| claude-sonnet-5-5 | 1,028 | 2K | 463K | 75.5M | 7.4M | 91.1% | 105 | 6.7h |
+| claude-opus-5-5 | 24,749 | 231K | 14.7M | 5,663.9M | 160.6M | 97.2% | 104 | 96.6h |
+| claude-sonnet-5-5 | 1,084 | 2K | 496K | 80.4M | 7.7M | 91.2% | 109 | 7.0h |
 | claude-haiku-5-5 | 4 | 16 | 23K | 0 | 343K | 0.0% | 2 | 0.1h |
 | claude-haiku-4-5 | 1 | 3 | 4 | 0 | 80K | 0.0% | 1 | 0.0h |
-| **Total** | **25,520** | **233K** | **15.0M** | **5,697.6M** | **166.7M** | **97.2%** | **207** | **102.4h** |
+| **Total** | **25,838** | **234K** | **15.2M** | **5,744.4M** | **168.8M** | **97.1%** | **215** | **103.6h** |
 
-_5,879.6M total tokens processed. 97.2% cache hit rate._
+_5,928.7M total tokens processed. 97.1% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -72,7 +72,7 @@ _5,879.6M total tokens processed. 97.2% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-20 18:02 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-20 19:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
