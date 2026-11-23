@@ -1,10 +1,10 @@
 {
   "schema": "aidevops.total-contributions/v1",
   "user": "chrishballard",
-  "updated": "2026-11-22",
-  "through": "2026-11-21",
+  "updated": "2026-11-23",
+  "through": "2026-11-22",
   "metric": "GitHub contributionCalendar.totalContributions",
-  "total": 79,
+  "total": 100,
   "months": [
     {
       "month": "2026-02",
@@ -53,8 +53,8 @@
     },
     {
       "month": "2026-11",
-      "total": 75,
-      "cumulative": 79
+      "total": 96,
+      "cumulative": 100
     }
   ]
 }
