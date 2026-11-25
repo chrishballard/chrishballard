@@ -1,60 +1,60 @@
 {
   "schema": "aidevops.total-contributions/v1",
   "user": "chrishballard",
-  "updated": "2026-11-24",
-  "through": "2026-11-23",
+  "updated": "2026-11-25",
+  "through": "2026-11-24",
   "metric": "GitHub contributionCalendar.totalContributions",
-  "total": 125,
+  "total": 0,
   "months": [
     {
       "month": "2026-02",
-      "total": 1,
-      "cumulative": 1
+      "total": 0,
+      "cumulative": 0
     },
     {
       "month": "2026-03",
-      "total": 1,
-      "cumulative": 2
+      "total": 0,
+      "cumulative": 0
     },
     {
       "month": "2026-04",
-      "total": 2,
-      "cumulative": 4
+      "total": 0,
+      "cumulative": 0
     },
     {
       "month": "2026-05",
       "total": 0,
-      "cumulative": 4
+      "cumulative": 0
     },
     {
       "month": "2026-06",
       "total": 0,
-      "cumulative": 4
+      "cumulative": 0
     },
     {
       "month": "2026-07",
       "total": 0,
-      "cumulative": 4
+      "cumulative": 0
     },
     {
       "month": "2026-08",
       "total": 0,
-      "cumulative": 4
+      "cumulative": 0
     },
     {
       "month": "2026-09",
       "total": 0,
-      "cumulative": 4
+      "cumulative": 0
     },
     {
       "month": "2026-10",
       "total": 0,
-      "cumulative": 4
+      "cumulative": 0
     },
     {
       "month": "2026-11",
-      "total": 121,
-      "cumulative": 125
+      "total": 0,
+      "cumulative": 0
     }
   ]
 }
