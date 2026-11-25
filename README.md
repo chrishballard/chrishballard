@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 1.3h | 34.5h | 38.0h | 38.0h |
 | Additive observed work | 10.4h | 72.3h | 75.7h | 75.7h |
 | Interactive sessions | 8 | 18 | 18 | 18 |
-| Worker sessions | 84 | 492 | 505 | 505 |
+| Worker sessions | 86 | 494 | 507 | 507 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -36,25 +36,25 @@ _AI session 365-day totals cover 7 days of local assistant session history (not 
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 30,007 | 243K | 16.9M | 6,336.2M | 197.8M | 97.0% | 366 | 119.7h |
+| claude-opus-5-5 | 30,020 | 243K | 16.9M | 6,337.0M | 198.0M | 97.0% | 368 | 119.8h |
 | claude-sonnet-5-5 | 1,520 | 3K | 711K | 117.9M | 11.2M | 91.3% | 152 | 9.5h |
 | claude-haiku-5-5 | 37 | 148 | 266K | 0 | 3.0M | 0.0% | 15 | 0.9h |
 | claude-haiku-4-5 | 1 | 3 | 4 | 0 | 80K | 0.0% | 1 | 0.0h |
-| **Total** | **31,565** | **246K** | **17.9M** | **6,454.2M** | **212.2M** | **96.8%** | **523** | **130.1h** |
+| **Total** | **31,578** | **246K** | **17.9M** | **6,455.0M** | **212.4M** | **96.8%** | **525** | **130.1h** |
 
-_6,684.7M total tokens processed. 96.8% cache hit rate._
+_6,685.6M total tokens processed. 96.8% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 30,007 | 243K | 16.9M | 6,336.2M | 197.8M | 97.0% | 366 | 119.7h |
+| claude-opus-5-5 | 30,020 | 243K | 16.9M | 6,337.0M | 198.0M | 97.0% | 368 | 119.8h |
 | claude-sonnet-5-5 | 1,520 | 3K | 711K | 117.9M | 11.2M | 91.3% | 152 | 9.5h |
 | claude-haiku-5-5 | 37 | 148 | 266K | 0 | 3.0M | 0.0% | 15 | 0.9h |
 | claude-haiku-4-5 | 1 | 3 | 4 | 0 | 80K | 0.0% | 1 | 0.0h |
-| **Total** | **31,565** | **246K** | **17.9M** | **6,454.2M** | **212.2M** | **96.8%** | **523** | **130.1h** |
+| **Total** | **31,578** | **246K** | **17.9M** | **6,455.0M** | **212.4M** | **96.8%** | **525** | **130.1h** |
 
-_6,684.7M total tokens processed. 96.8% cache hit rate._
+_6,685.6M total tokens processed. 96.8% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -72,7 +72,7 @@ _6,684.7M total tokens processed. 96.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-25 10:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-25 11:01 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
